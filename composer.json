@@ -1,5 +1,5 @@
 {
-    "name": "chinayin/sms-php-sdk",
+    "name": "chinayin/sms-sdk-php",
     "description": "Aliyun SMS SDK for PHP",
     "keywords": [ "aliyun", "SMS", "sdk" ],
     "homepage": "http://www.aliyun.com/product/sms/",
