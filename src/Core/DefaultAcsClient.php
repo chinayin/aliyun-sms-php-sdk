@@ -102,7 +102,7 @@ class DefaultAcsClient implements IAcsClient
     
     private function buildApiException($respObject, $httpStatus)
     {
-        throw new ServerException($respObject->Message, $respObject->Code, $httpStatus, $respObject->RequestId);
+        throw new ServerException($respObject['Message'], $respObject['Code'], $httpStatus, $respObject['RequestId']);
     }
     
     private function parseAcsResponse($body, $format)
