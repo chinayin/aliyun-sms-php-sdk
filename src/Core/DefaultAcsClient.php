@@ -109,7 +109,7 @@ class DefaultAcsClient implements IAcsClient
     {
         if ("JSON" == $format)
         {    
-            $respObject = json_decode($body);
+            $respObject = json_decode($body,true);
         }
         else if("XML" == $format)
         {
